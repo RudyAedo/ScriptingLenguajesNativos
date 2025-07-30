@@ -1,0 +1,5 @@
+//Creación de Arrays en MEL
+int $notas[]={10,20,16};
+string $alumnos[]={"Juan","Ramiro","Sofía"};
+
+print ($alumnos[1]+" saco "+$notas[1]+ " de nota.");
