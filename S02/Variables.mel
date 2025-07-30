@@ -1,0 +1,6 @@
+//Creación de variables en MEL
+int $edad = 25;
+float $altura = 1.75;
+string $nombre = "Maya";
+
+print ($nombre +" tiene "+ $edad + " años y mide "+ $altura);
