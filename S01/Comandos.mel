@@ -1,0 +1,4 @@
+//Creación de Objetos en MEL
+sphere -n "Esfera" -r 1;
+move 0 1.5 0;
+polyCube -n "Cubo" -w 1 -h 1 -d 1;
