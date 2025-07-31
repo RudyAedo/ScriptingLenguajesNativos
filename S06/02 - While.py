@@ -4,5 +4,5 @@ contador = 1
 while contador <= 5:
     print(contador)
   
-    #El contador debe incrmentar para que se cumpla la condición
+    #El contador debe incrementar para que se cumpla la condición
     contador += 1 
