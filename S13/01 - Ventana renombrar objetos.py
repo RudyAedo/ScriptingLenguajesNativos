@@ -18,14 +18,15 @@ def renombrar():
             cmds.select(objetos[x])
             cmds.rename(nombre+"_"+str(x))
             cmds.select(cl=True)
-        cmds.textField(val,edit=True, text='Ingrese un nombre')
+        cmds.textField(val,edit=True, text='Ingrese un nombre') #'val' es la variable que contiene el nombre de la caja de texto que queremos leer
         cmds.inViewMessage(amg='Nombres cambiados', pos='topCenter', fade=True)
 
+#La instrucción de creación de ventana es alojada en una variable
 vent=cmds.window(window_name,t="Rename",w=300,h=100,s=False,mnb=False,mxb=False)
 cmds.columnLayout(nch=5,adj=True,rs=6)
 cmds.text(l="Ingresa el prefijo que usarán los objetos seleccionados.",h=40)
 cmds.separator(h=10)
-val=cmds.textField(w=100,pht="Nombre",h=40)
+val=cmds.textField(w=100,pht="Nombre",h=40) #La caja de texto es alojada en una variable para luego ser leida en el procedimiento
 cmds.iconTextButton(c="renombrar()",st="iconAndTextVertical",l="Renombrar",i="renamePreset",h=40,bgc=(.1,.1,.1))
 cmds.separator(h=20)
 
