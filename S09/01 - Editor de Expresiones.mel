@@ -1,0 +1,4 @@
+float $amplitud = 5;
+float $velocidad = 0.2;
+
+pCube1.translateZ = $amplitud * sin(frame * $velocidad);
