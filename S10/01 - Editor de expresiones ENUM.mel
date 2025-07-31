@@ -1,0 +1,5 @@
+if (controlador.LOD == 0){
+  pCubeLow.visibility = 1;
+  pCubeMid.visibility = 0;
+  pCubeHigh.visibility = 0;
+}
