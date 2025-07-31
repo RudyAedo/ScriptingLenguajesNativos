@@ -1,4 +1,5 @@
 # Uso de Rango de Datos
+
 numero = 42  # Puedes cambiar este valor para probar
 
 if numero >= 0 and numero < 50:
