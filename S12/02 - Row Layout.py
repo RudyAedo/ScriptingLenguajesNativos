@@ -9,13 +9,13 @@ cmds.window(win,t='Row Layout',
     w=400,h=500,s=True,
     mxb=False,bgc=(0.6,0.6,0.6))
 
-cmds.rowLayout(nc=6)
+cmds.rowLayout(nc=6) #------------------------------------
 cmds.button(l='Botón 1',bgc=[0.3,0.3,0.3],h=50)
 cmds.button(l='Botón 2',bgc=[0.3,0.3,0.3],h=50)
 cmds.button(l='Botón 3',bgc=[0.3,0.3,0.3],h=50)
 cmds.button(l='Botón 4',bgc=[0.3,0.3,0.3],h=50)
 cmds.button(l='Botón 5',bgc=[0.3,0.3,0.3],h=50)
 cmds.button(l='Botón 6',bgc=[0.3,0.3,0.3],h=50)
-cmds.setParent('..')
+cmds.setParent('..') #-----------------------------------
 
 cmds.showWindow(win)
