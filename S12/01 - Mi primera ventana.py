@@ -13,3 +13,6 @@ cmds.window(win,t='Ventana',w=300,h=150,s= False,mxb=False,bgc=(0.6,0.6,0.6))
 #cmds.columnLayout(w=150,h=150)  # Esto es lo que hace que Maya respete el tamaño
 
 cmds.showWindow(win)
+
+#Para elegir los colores de la interfaz pueden ir a:
+# https://www.tydac.ch/color/
