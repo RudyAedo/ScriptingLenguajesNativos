@@ -1,0 +1,6 @@
+//Indicar la unidad de disco y el nombre y la extención del archivo
+//En la ruta se usa el simbolo \
+
+string $win=`loadUI -f("E:\Ejemplo.ui")`;
+
+showWindow $win;
